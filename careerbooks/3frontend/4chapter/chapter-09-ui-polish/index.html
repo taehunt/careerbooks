@@ -1,10 +1,84 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <title>포트폴리오</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>나의 포트폴리오</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet" />
 </head>
 <body>
+
+  <header>
+    <h1>홍길동</h1>
+    <p>프론트엔드 웹 개발자</p>
+  </header>
+
+  <main>
+    <section id="about" class="fade-in">
+		<div class="about-container">
+			<img src="images/profile.jpg" alt="프로필 사진" />
+			<div class="about-text">
+			<h2>안녕하세요! 프론트엔드 개발자 홍길동입니다.</h2>
+			<p>사용자 중심의 웹사이트를 만들고, 성장을 즐기는 개발자입니다.</p>
+			</div>
+		</div>
+	</section>
+    <section id="projects" class="fade-in">
+		<h2>프로젝트 소개</h2>
+		<div class="project-list">
+			<div class="project-card">
+				<h3>Todo List App</h3>
+				<p>간단한 할 일 관리 앱. JavaScript 로직과 로컬스토리지 사용.</p>
+				<a href="https://example.com/todo" target="_blank">사이트 보기</a>
+			</div>
+			<div class="project-card">
+				<h3>반응형 쇼핑몰</h3>
+				<p>HTML/CSS만으로 제작한 쇼핑몰 UI. 모바일 최적화 완료.</p>
+				<a href="https://example.com/shop" target="_blank">사이트 보기</a>
+			</div>
+		</div>
+	</section>
+    <section id="skills" class="fade-in">
+		<h2>사용 기술</h2>
+		<div class="skill-list">
+		  <div class="skill-item">
+			<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+			<span>HTML5</span>
+		  </div>
+		  <div class="skill-item">
+			<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+			<span>CSS3</span>
+		  </div>
+		  <div class="skill-item">
+			<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+			<span>JavaScript</span>
+		  </div>
+		</div>
+	  </section>	  
+	  <section id="contact" class="fade-in">
+		<h2>연락처</h2>
+		<div class="contact-links">
+		  <a href="mailto:your.email@example.com" target="_blank">
+			<img src="https://img.icons8.com/ios-filled/50/000000/email.png" alt="Email" />
+			이메일
+		  </a>
+		  <a href="https://github.com/yourgithub" target="_blank">
+			<img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" />
+			GitHub
+		  </a>
+		  <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+			<img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn" />
+			LinkedIn
+		  </a>
+		</div>
+	  </section>	  
+  </main>
+
+  <footer>
+    <p>&copy; 2025 홍길동. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
